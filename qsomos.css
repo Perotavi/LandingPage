@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: "Poppins", serif;
+    color: rgb(226, 225, 225);
+    max-width: 1200px;
+    margin: 0px;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#qsomos{
+    flex-direction: column;
+    line-height: 40px;
+}
+
+a{
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    text-align: left;
+    font-weight: 200;
+}
+
+h3{
+    justify-content: bottom;
+    text-align: center;
+    margin-bottom: -14px;       
+}
+
+p{
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{margin-top: 80px;}
+
+#lorem{
+    margin-top: 20px;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.45s;
+}
+
+#jatemcontabtn{
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#jatemcontabtn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+
+
+
