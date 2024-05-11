@@ -3,7 +3,7 @@ body{
     font-family: "Poppins", serif;
     color: rgb(226, 225, 225);
     max-width: 1200px;
-    margin: 0px;
+    margin: 0 auto;
     padding: 15px;
 }
 
@@ -16,7 +16,14 @@ header{
 
 #qsomos{
     flex-direction: column;
-    line-height: 40px;
+    line-height: 10px;
+    transform: translateX(-68px);
+}
+
+#cato{
+    width: 100px;
+    height: 100px;
+            
 }
 
 a{
@@ -29,31 +36,20 @@ li{
 }
 
 h1{
-    text-align: left;
-    font-weight: 200;
+    font-weight: 350;
+    transform: translateX(-68px);
 }
 
 h3{
     justify-content: bottom;
     text-align: center;
-    margin-bottom: -14px;       
-}
-
-p{
-    line-height: 20px;
-    text-align: center;
-    
+    margin-bottom: -10px;
+    line-height: 5px;       
 }
 
 main{
     display: flex;
     flex-direction: row;
-}
-
-h4{margin-top: 80px;}
-
-#lorem{
-    margin-top: 20px;
 }
 
 a:hover{
@@ -74,6 +70,10 @@ a:hover{
 
 span{
     color: rgb(132, 14, 201);
+}
+
+#texto h2{
+    font-weight: 300;
 }
 
 

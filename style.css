@@ -25,8 +25,9 @@ li{
 }
 
 h1{
-    font-weight: 200;
-    
+    font-weight: 350;
+    transform: translateX(-68px);
+           
 }
 
 main{
@@ -53,12 +54,18 @@ p{
     max-width: 500px;
 }
 
-img{
+#conceito{
     
     width: 500px;
     height: 500px;
     display: block;
     margin-left: 150px;
+}
+
+#cato{
+    width: 100px;
+    height: 100px;
+            
 }
 
 a{
